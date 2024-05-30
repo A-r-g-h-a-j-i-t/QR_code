@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--Light-gray);
+    font-family: "outfit",sans-serif;
+    font-size: 15px;
+   
+
+}
+.container{
+    max-width: 360px;
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px hsl(220, 15%, 55%);
+    margin-top:100px;
+    margin-left: 900px;
+}
+.container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.text{
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+
+}
+.text h2{
+    color:var(--Dark-blue);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.text p{
+    color: var(--Light-gray);
+    font-weight: 400;
+    font-size: 1rem;
+}
